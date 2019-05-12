@@ -1,5 +1,6 @@
 # IntervalQuiz
-Music Theory Interval Quiz
+Music Theory Interval Quiz:
+
 Given root note and interval - must name resultant note
 
 Some notes in the musical alphabet have more than one name (i.e. are enharmonically equivalent). 
