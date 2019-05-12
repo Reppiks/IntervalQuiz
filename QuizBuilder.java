@@ -19,7 +19,6 @@ public class QuizBuilder {
         {"F", "Gb", "G", "Ab", "A", "Bb", "Cb", "C",  "Db", "D", "Eb", "E"},
     };
 
-
     Random random = new Random();
 
     // generates a random starting point i.e. "root note"
@@ -34,13 +33,13 @@ public class QuizBuilder {
         return distance;
     }
 
-    // this is just a string to correspond with the root
+    // returns String version of root note for UI
     public String getRootName(int root) {
         String startNote = keys[root][0];
         return startNote;
     }
 
-    // this chooses a string to correspond with the interval distance
+    // returns String version of interval for UI
     public String getIntervalName(int distance) {
 
         String intervalStr;
