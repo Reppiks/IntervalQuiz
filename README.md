@@ -11,6 +11,8 @@ Example:
 A Major -> A, B, C#, D, E, F#, G# (Correct)
 A Major -> A, B, Db, D, E, F#, Ab (Incorrect) there is a mixture of sharps and flats and C and G notes are unaccounted for.
 
+In addition, there are certain valid intervals that are not included in a given Major or minor scale.
+
 As there are some irregularities in the way that certian keys and intervals behave regarding note names, the choice was made to declare and populate a 2-dimensional array in the QuizBuilder. Other ways of handling these irregularities and special occurences resulted in complicated logic (many if/else statements) that affected the readability and tidiness of the code.
 
 The player is assigned a starting root note and an ascending interval for said root. 
